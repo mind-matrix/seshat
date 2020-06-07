@@ -4,7 +4,7 @@ const { connect } = require('mongoose');
 const { Corpus, Document } = require('./model');
 const TextSummarizer = require('./summarizer');
 
-connect('mongodb://localhost:27017/seshat', {
+connect('mongodb+srv://wirekit:PkUFrTU0Y0kOhJZu@primarycluster-cvsxg.mongodb.net/wirekit?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useFindAndModify: false,
   useCreateIndex: true
