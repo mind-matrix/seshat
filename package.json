@@ -1,0 +1,31 @@
+{
+  "name": "seshat",
+  "version": "1.0.0",
+  "description": "A collection of research tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sagnik Modak",
+  "license": "MIT",
+  "dependencies": {
+    "@mindmatrix/marvin": "^1.0.1",
+    "collections": "^5.1.9",
+    "get-sentences-from-article": "^1.0.5",
+    "mongoose": "^5.9.5",
+    "natural": "^2.1.5",
+    "rtc-everywhere": "0.0.5",
+    "wikijs": "^6.0.1"
+  },
+  "devDependencies": {
+    "npm-force-resolutions": "0.0.3"
+  },
+  "resolutions": {
+    "growl": "^1.10.2",
+    "minimatch": "^3.0.2",
+    "debug": "^2.6.9",
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.3",
+    "lodash.merge": "^4.6.2"
+  }
+}
